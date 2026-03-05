@@ -454,7 +454,7 @@
     },
     "show_floating_toc": {
       "type": "bool",
-      "default": true,
+      "default": false,
       "category": "reading",
       "encrypted": false,
       "frontend_key": "showFloatingToc"
