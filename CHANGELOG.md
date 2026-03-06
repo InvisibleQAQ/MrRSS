@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Fixed an issue where the advanced settings for a RSSHub feed can not be saved correctly.
 - Resolved multiple minor styling inconsistencies. (#752, #753, #755)
 
 ## [1.3.21] - 2026-02-27
