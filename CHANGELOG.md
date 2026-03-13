@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Resolved OPML import failure for self-exported feedURL attributes. (#781) (@kv-chiu)
+
 ## [1.3.22] - 2026-03-07
 
 **BREAKING**: The logic operator precedence for filter conditions and rules has been standardized to `NOT` > `AND` > `OR`. This means that `NOT` conditions will be evaluated first, followed by `AND`, and then `OR`. Please review your existing filters and rules to ensure they behave as expected with this precedence.
